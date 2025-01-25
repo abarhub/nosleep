@@ -127,13 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="easylogging++.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="nosleep.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Temps.h" />
+    <ClInclude Include="traitement.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="easylogging++.cc" />
     <ClCompile Include="nosleep.cpp" />
+    <ClCompile Include="temps.cpp" />
+    <ClCompile Include="traitement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="nosleep.rc" />
